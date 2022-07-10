@@ -182,10 +182,21 @@ header {
   list-style: none;
   font-style: normal;
   margin: 0px;
+  display: flex;
+}
+.hat-link::before {
+  content: "";
+  width: 12px;
+  height: 16px;
+  background-size: contain;
+  background-image: url(../images/envelope.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
 }
 .hat-link-last {
   color: var(--primary-text-color);
-
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   padding-top: 32px;
@@ -194,8 +205,18 @@ header {
   font-style: normal;
   text-decoration: none;
 }
+.hat-link-last::before {
+  content: "";
+  width: 10px;
+  height: 16px;
+  background-size: contain;
+  background-image: url(../images/smartphone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
 .reference {
-  margin-left: 331px;
+  margin-left: 305px;
 }
 .reference-link {
   margin-right: 50px;
@@ -267,8 +288,28 @@ header {
   flex-wrap: wrap;
   list-style: none;
   font-style: normal;
-  margin: 0;
+  margin: 0px;
   padding: 0px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px;
+  border-radius: 4px;
+  background-color: var(--grey-text-color);
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-color-team);
+}
+.icon::before {
+  content: "";
+  background-image: url(../images/antenna.svg);
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .section {
   padding-top: 94px;
