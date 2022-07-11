@@ -383,58 +383,29 @@ header {
   padding-bottom: 94px;
 }
 /* section team */
-.inst::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Instagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+
+.network {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.inst {
+  width: 20px;
+  height: 20px;
+}
+.instagram {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.twit::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Twitter.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-}
-.faceb::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Facebook.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-}
-.lidn::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/LinkedIn.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-}
-.network {
-  text-decoration: none;
-  display: inline-block;
-}
-.links {
-  display: flex;
+  fill: var(--border-color-client);
 }
 .items-name {
   color: var(--title-text-color);
@@ -469,6 +440,14 @@ header {
   margin-bottom: 16px;
 }
 /* Regular customers */
+.logo1 {
+  justify-content: center;
+}
+.client-icon {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+}
 .section-clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -483,12 +462,11 @@ header {
   margin-bottom: 50px;
 }
 .client {
-  padding-left: 0px;
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.client-icon {
+.brand1 {
   margin-right: 30px;
   justify-content: center;
   width: 170px;
@@ -496,73 +474,9 @@ header {
   border: 1px solid var(--border-color-client);
   border-radius: 4px;
   display: flex;
-  padding-top: 16px;
+  align-items: center;
 }
-.client-icon:last-child {
-  margin-right: 0px;
-}
-.brand1::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Logo1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 106px;
-  height: 60px;
-  display: flex;
-}
-.brand2::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Logo2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 106px;
-  height: 60px;
-  display: flex;
-}
-.brand3::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Logo3.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 106px;
-  height: 60px;
-  display: flex;
-}
-.brand4::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Logo4.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  fill: var(--border-color-client);
-  width: 106px;
-  height: 60px;
-  display: flex;
-}
-.brand5::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Logo5.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 
-  width: 106px;
-  height: 60px;
-  display: flex;
-}
-.brand6::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Logo6.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 106px;
-  height: 60px;
-  display: flex;
-}
 /* footer */
 .footer-net {
   width: 206px;
@@ -592,16 +506,7 @@ header {
   width: 44px;
   height: 44px;
 }
-.social::before {
-  content: "";
-  background-size: contain;
-  background-image: url(../images/Instagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  width: 44px;
-  height: 44px;
-}
+
 .basement {
   background: var(--background-color-footer-hero);
   padding-top: 60px;
