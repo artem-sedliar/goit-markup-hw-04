@@ -144,17 +144,20 @@ header {
   flex-wrap: wrap;
   display: block;
 }
-.reference :focus,
-.reference :hover {
+
+.reference-link :hover,
+.reference-link :focus {
   color: var(--accent-color);
 }
-.reference-link :focus,
-.reference-link :hover {
+.hat-link:hover,
+.hat-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
-.hat-link :focus,
-.hat-link :hover {
+.hat-link-last:hover,
+.hat-link-last:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .link.current {
@@ -189,6 +192,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  display: inline-flex;
 }
 .mail {
   margin-right: 10px;
@@ -407,6 +411,12 @@ header {
   align-items: center;
   fill: var(--border-color-client);
 }
+.instagram:hover,
+.instagram:focus {
+  fill: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
 .items-name {
   color: var(--title-text-color);
   font-weight: 500;
@@ -466,7 +476,7 @@ header {
   justify-content: center;
   text-align: center;
 }
-.brand1 {
+.brand {
   margin-right: 30px;
   justify-content: center;
   width: 170px;
@@ -476,12 +486,34 @@ header {
   display: flex;
   align-items: center;
 }
-
+.brand:hover,
+.brand:focus {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+  outline: none;
+}
+.logo1:hover,
+.logo1:focus {
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
+.footer-links:focus,
+.footer-links:hover {
+  fill: var(--accent-color);
+}
+.social:hover,
+.social:focus {
+  fill: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
 /* footer */
 .footer-net {
   width: 206px;
   height: 80px;
   display: flex;
+  margin-left: 70px;
+  flex-wrap: wrap;
 }
 .join {
   font-weight: 700;
@@ -493,9 +525,15 @@ header {
   margin-bottom: 20px;
   padding-top: 10px;
   margin-top: 0px;
+  background-position: center;
 }
 .footer-link {
   display: flex;
+  align-items: center;
+}
+.footer-links {
+  list-style: none;
+  margin-right: 10px;
 }
 .social {
   display: flex;
@@ -512,7 +550,12 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.basement-nav {
+  display: flex;
+}
+footer {
+  display: flex;
+}
 .map {
   color: var(--white-color);
   font-size: 14px;
@@ -607,4 +650,11 @@ header {
 .button :focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+
+.poster:hover,
+.poster:focus {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px rgb(0 0 0 / 16%);
 }
