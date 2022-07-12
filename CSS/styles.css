@@ -196,6 +196,11 @@ header {
   margin-right: 10px;
   fill: currentColor;
 }
+.mail:hover,
+.mail:focus {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+}
 .hat-link-last {
   color: var(--primary-text-color);
   display: flex;
@@ -457,6 +462,9 @@ header {
 .logo1 {
   justify-content: center;
   fill: currentColor;
+  border: 1px solid var(--border-color-client);
+  border-radius: 4px;
+  fill: var(--border-color-client);
 }
 
 .client-icon {
@@ -505,7 +513,7 @@ header {
 .logo1:hover,
 .logo1:focus {
   fill: var(--accent-color);
-  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 .footer-links:focus,
 .footer-links:hover {
