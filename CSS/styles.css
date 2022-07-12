@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -145,10 +146,6 @@ header {
   display: block;
 }
 
-.reference-link :hover,
-.reference-link :focus {
-  color: var(--accent-color);
-}
 .hat-link:hover,
 .hat-link:focus {
   color: var(--accent-color);
@@ -193,9 +190,11 @@ header {
   align-items: center;
   justify-content: center;
   display: inline-flex;
+  fill: currentColor;
 }
 .mail {
   margin-right: 10px;
+  fill: currentColor;
 }
 .hat-link-last {
   color: var(--primary-text-color);
@@ -211,12 +210,15 @@ header {
   text-decoration: none;
   display: flex;
   align-items: center;
+  fill: currentColor;
 }
 .phone {
   margin-right: 10px;
+  fill: currentColor;
 }
 .reference {
   margin-left: 312px;
+  fill: currentColor;
 }
 .reference-link {
   margin-right: 50px;
@@ -379,8 +381,7 @@ header {
 
 .items {
   background-color: var(--background-color-team);
-
-  height: 648px;
+  height: 708px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
@@ -401,6 +402,8 @@ header {
 .inst {
   width: 20px;
   height: 20px;
+  color: #ffffff;
+  fill: currentColor;
 }
 .instagram {
   width: 44px;
@@ -409,12 +412,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--white-color);
+  color: var(--white-color);
+  fill: currentColor;
 }
 .instagram:hover,
 .instagram:focus {
-  fill: var(--white-color);
+  color: #ffffff;
   background-color: var(--accent-color);
+  border-radius: 50%;
 }
 .items-name {
   color: var(--title-text-color);
@@ -451,11 +456,14 @@ header {
 /* Regular customers */
 .logo1 {
   justify-content: center;
+  fill: currentColor;
 }
+
 .client-icon {
   list-style: none;
   justify-content: center;
   display: flex;
+  fill: currentColor;
 }
 .section-clients {
   padding-top: 94px;
@@ -484,12 +492,15 @@ header {
   border-radius: 4px;
   display: flex;
   align-items: center;
+  fill: currentColor;
 }
 .brand:hover,
 .brand:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
+  color: var(--accent-color);
   outline: none;
+  fill: currentColor;
 }
 .logo1:hover,
 .logo1:focus {
