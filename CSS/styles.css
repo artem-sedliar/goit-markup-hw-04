@@ -409,13 +409,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--border-color-client);
+  fill: var(--white-color);
 }
 .instagram:hover,
 .instagram:focus {
   fill: var(--white-color);
   background-color: var(--accent-color);
-  border-radius: 50%;
 }
 .items-name {
   color: var(--title-text-color);
