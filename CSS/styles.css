@@ -133,6 +133,14 @@ header {
   flex-wrap: wrap;
   display: block;
 }
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.link-last:hover,
+.link-last:focus {
+  color: var(--accent-color);
+}
 .link-last {
   color: var(--title-text-color);
   padding-top: 32px;
