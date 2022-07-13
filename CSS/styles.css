@@ -186,7 +186,6 @@ header {
   list-style: none;
   font-style: normal;
   margin: 0px;
-  display: flex;
   align-items: center;
   justify-content: center;
   display: inline-flex;
@@ -195,9 +194,10 @@ header {
 .mail {
   margin-right: 10px;
   fill: currentColor;
+  fill: var(--accent-color);
 }
-.mail:hover,
-.mail:focus {
+.hat-link.mail:hover,
+.hat-link.mail:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
