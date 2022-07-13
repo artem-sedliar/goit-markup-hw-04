@@ -462,7 +462,6 @@ header {
 .logo1 {
   justify-content: center;
   fill: currentColor;
-  border: 1px solid var(--border-color-client);
   border-radius: 4px;
   fill: var(--border-color-client);
 }
