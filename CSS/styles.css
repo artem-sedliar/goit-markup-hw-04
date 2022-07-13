@@ -202,7 +202,6 @@ header {
 .mail {
   margin-right: 10px;
   fill: currentColor;
-  fill: var(--accent-color);
 }
 .hat-link.mail:hover,
 .hat-link.mail:focus {
@@ -415,8 +414,6 @@ header {
 .inst {
   width: 20px;
   height: 20px;
-  color: #ffffff;
-  fill: currentColor;
 }
 .instagram {
   width: 44px;
@@ -425,12 +422,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--white-color);
-  fill: currentColor;
+  fill: var(--border-color-client);
 }
 .instagram:hover,
 .instagram:focus {
-  color: #ffffff;
+  fill: var(--white-color);
   background-color: var(--accent-color);
   border-radius: 50%;
 }
@@ -471,7 +467,6 @@ header {
   justify-content: center;
   fill: currentColor;
   border-radius: 4px;
-  fill: var(--border-color-client);
 }
 
 .client-icon {
@@ -507,15 +502,12 @@ header {
   border-radius: 4px;
   display: flex;
   align-items: center;
-  fill: currentColor;
+  color: var(--border-color-client);
 }
 .brand:hover,
 .brand:focus {
   border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
   color: var(--accent-color);
-  outline: none;
-  fill: currentColor;
 }
 .logo1:hover,
 .logo1:focus {
@@ -568,6 +560,7 @@ header {
   background: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
+  fill: var(--white-color);
 }
 
 .basement {
